@@ -16,7 +16,7 @@ function NewGameWindow(props) {
             value={props.player1Score}  
           >
             <option value = '301'>301</option>
-            <option value = '501'>501</option>
+            <option value = '501' selected= 'selected'>501</option>
             <option value = '701'>701</option>
             <option value = '1001'>1001</option>
           </select>
